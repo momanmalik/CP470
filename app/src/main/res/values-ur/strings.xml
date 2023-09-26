@@ -2,5 +2,8 @@
 <resources>
     <string name="app_name">AndroidAssignments</string>
     <string name="hello_message">السلام عليكم</string>
+    <string name="login_message">لاگ ان </string>
+    <string name="login_name">لاگ ان نام</string>
+    <string name="password_message">پاس ورڈ</string>
     <string name="ButtonText">میں ایک بٹن ہوں۔</string>
 </resources>
