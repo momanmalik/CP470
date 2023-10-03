@@ -5,4 +5,8 @@
     <string name="login_name">login name</string>
     <string name="password_message">Password</string>
     <string name="ButtonText">I\'m a button</string>
+    <string name="dialog_title">Finish activity</string>
+    <string name="dialog_message">Would you like to finish activity?</string>
+    <string name="ok">Okay</string>
+    <string name="cancel">Cancel</string>
 </resources>
