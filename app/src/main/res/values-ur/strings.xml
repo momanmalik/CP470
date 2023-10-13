@@ -10,4 +10,7 @@
     <string name="dialog_message">کیا آپ سرگرمی ختم کرنا چاہیں گے؟</string>
     <string name="ok">ٹھیک ہے</string>
     <string name="cancel">منسوخ کریں۔</string>
+    <string name="start_chat">چیٹ شروع کریں</string>
+    <string name="list_items">فہرست اشیاء</string>
+    <string name="send">بھیجیں</string>
 </resources>

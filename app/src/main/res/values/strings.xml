@@ -9,4 +9,7 @@
     <string name="dialog_message">Would you like to finish activity?</string>
     <string name="ok">Okay</string>
     <string name="cancel">Cancel</string>
+    <string name="start_chat">Start Chat</string>
+    <string name="list_items">List Items</string>
+    <string name="send">Send</string>
 </resources>

@@ -19,14 +19,23 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.i(ACTIVITY_NAME, " onCreate reached");
 
-        final Button mainActivityButton = findViewById(R.id.button);
+        final Button mainActivityButton = findViewById(R.id.listItemsButton);
 
         mainActivityButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this,ListItemsActivity.class);
+                Intent intent=new Intent(MainActivity.this, ListItemsActivity.class);
                 startActivityForResult(intent, 10);
+            }
+        });
 
+        final Button startChatButton = findViewById(R.id.startChatButton);
+        startChatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, ChatWindow.class);
+                startActivity(intent);
+                Log.i(ACTIVITY_NAME, "User clicked Start Chat");
             }
         });
     }
