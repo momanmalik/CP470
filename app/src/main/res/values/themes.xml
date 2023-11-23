@@ -6,4 +6,5 @@
     </style>
 
     <style name="Theme.AndroidAssignments" parent="Base.Theme.AndroidAssignments" />
+    <style name="Theme.AndroidAssignments.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

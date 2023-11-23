@@ -38,6 +38,28 @@ public class MainActivity extends AppCompatActivity {
                 Log.i(ACTIVITY_NAME, "User clicked Start Chat");
             }
         });
+
+        final Button testToolbar =findViewById(R.id.TestToolbar);
+        testToolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,TestToolbar.class);
+                startActivity(intent);
+                Log.i(ACTIVITY_NAME, "User clicked Test Toolbar");
+
+            }
+        });
+
+        final Button weatherButton =findViewById(R.id.WeatherButton);
+        weatherButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,WeatherForecast.class);
+                startActivity(intent);
+                Log.i(ACTIVITY_NAME, "User clicked the weather forecast button");
+
+            }
+        });
     }
 
     protected void onActivityResult(int requestCode, int responseCode, Intent data) {

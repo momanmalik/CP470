@@ -12,7 +12,7 @@ android {
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
-
+        multiDexEnabled = true
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -33,6 +33,9 @@ android {
     testOptions {
         unitTests.isIncludeAndroidResources = true
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -40,6 +43,8 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.8.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.navigation:navigation-fragment:2.5.3")
+    implementation("androidx.navigation:navigation-ui:2.5.3")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test:runner:1.4.0")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
